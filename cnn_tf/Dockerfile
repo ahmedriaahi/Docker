@@ -17,5 +17,5 @@ COPY cnn_tf.py .
 EXPOSE 8888
 
 # Set the default command to run Jupyter
-CMD ["jupyter", "notebook", "--Notebook.app=''" "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+CMD ["jupyter", "notebook", "--Notebook.app=''", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
 
