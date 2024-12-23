@@ -1,0 +1,9 @@
+tensorflow>=2.9.0
+keras>=2.9.0
+matplotlib
+pandas
+numpy
+scikit-learn
+opencv-python-headless
+jupyter
+
